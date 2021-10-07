@@ -1,5 +1,12 @@
-num=int(input("Enter your number:"))
-if(num%2==0):
-    print("The number is even")
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
+ 
+if (a > b) and (a > c):
+   largest = a
+elif (b > a) and (b > c):
+   largest = b
 else:
-    print("The number is odd")
+   largest = c
+ 
+print("The largest number is",largest)
