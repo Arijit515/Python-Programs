@@ -1,5 +1,3 @@
-# Linear Search in Python
-
 lst = []
 num = int(input("Enter size of list : "))
 
